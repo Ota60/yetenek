@@ -75,8 +75,8 @@ def tempo_komutu():
     speak("Tempoya başlıyorum,Ota60")
     threading.Thread(target=ses_oynat, args=("k.webm",)).start()  # k.webm dosyasını arka planda çal
     a=62
-    time.sleep(a)
     print("Temponun bitmesi bekleniyor")
+    time.sleep(a)
 def uyku_modu():
     speak("Uyku moduna geçiyorum. Lütfen süreyi söyleyin.")
     süre_str = input("Süre lütfen (dakika): ")
