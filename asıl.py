@@ -73,7 +73,7 @@ def get_audio_input():
 # Tempo komutunu algıla ve müzik çalma işlemi
 def tempo_komutu():
     speak("Tempoya başlıyorum,Ota60")
-    threading.Thread(target=ses_oynat, args=("k.webm",)).start()  # k.webm dosyasını arka planda çal
+    threading.Thread(target=ses_oynat, args=("f.webm",)).start()  # k.webm dosyasını arka planda çal
     a=62
     print("Temponun bitmesi bekleniyor")
     time.sleep(a)
