@@ -74,7 +74,7 @@ def get_audio_input():
 def tempo_komutu():
     speak("Tempoya başlıyorum,Ota60")
     threading.Thread(target=ses_oynat, args=("f.webm",)).start()  # k.webm dosyasını arka planda çal
-    a=62
+    a=192
     print("Temponun bitmesi bekleniyor")
     time.sleep(a)
 def uyku_modu():
